@@ -1,0 +1,367 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <!--
+        * Author:         OverAPI
+        -->
+        <meta charset="utf-8" />
+        <title>Svn Cheat Sheet | OverAPI.com</title>
+        <meta name="author" content="OverAPI" />
+        <meta name="description" content="OverAPI.com is a site collecting all the cheatsheets,all!" />
+        <link rel="stylesheet" href="static/css/default.css" type="text/css" />
+        <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
+        <script type="text/javascript" src="static/js/jquery.1.7.min.js"></script>
+        <script type="text/javascript" src="static/js/jquery.masonry.min.js"></script>
+        <script type="text/javascript" src="static/js/jquery.quicksearch.js"></script>
+        <script type="text/javascript" src="static/js/main.js"></script>
+        <!-- Global site tag (gtag.js) - Google Analytics -->
+        <script async src="https://www.googletagmanager.com/gtag/js?id=UA-154846433-1"></script>
+        <script>
+          window.dataLayer = window.dataLayer || [];
+          function gtag(){dataLayer.push(arguments);}
+          gtag('js', new Date());
+
+          gtag('config', 'UA-154846433-1');
+        </script>
+<script data-ad-client="ca-pub-8625616776911349" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+    </head>
+    <body class="cheat-detail">
+        <div id="more-list-container">
+    <a href="javascript:void(0)">More &raquo;</a>
+    <ul id="nav-more-list">
+        <li><a href="git" title="Git Cheat Sheet">Git</a></li>
+        <li><a href="svn" title="SVN Cheat Sheet">SVN</a></li>
+        <li><a href="mysql" title="MySQL Cheat Sheet">MySQL</a></li>
+        <li><a href="regex" title="Regular Expression Cheat Sheet">Regex</a></li>
+        <li><a href="linux" title="Linux Command Line Cheat Sheet">Linux</a></li>
+        <li><a href="html" title="HTML Cheat Sheet">HTML</a></li>
+        <li><a href="html-dom" title="HTML-DOM Cheat Sheet">HTML-DOM</a></li>
+        <li><a href="mod_rewrite" title="mod_rewrite Cheat Sheet">mod_rewrite</a></li>
+        <li><a href="index.html#more" id="">Even More &raquo;</a></li>
+    </ul>
+</div>
+<div id="navbar">
+    <a id="logo" href="index.html">OverAPI.com</a>
+    <ul id="navlist" class="nav">
+        <li><a href="python" title="Python Cheat Sheet">Python</a></li>
+        <li><a href="jquery" title="jQuery Cheat Sheet">jQuery</a></li>
+        <li><a href="nodejs" title="NodeJS Cheat Sheet">NodeJS</a></li>
+        <li><a href="php" title="PHP Cheat Sheet">PHP</a></li>
+        <li><a href="java" title="Java Cheat Sheet">Java</a></li>
+        <li><a href="ruby" title="Ruby Cheat Sheet">Ruby</a></li>
+        <li><a href="javascript" title="Javascript Cheat Sheet">Javascript</a></li>
+        <li><a href="actionscript" title="ActionScript Cheat Sheet">ActionScript</a></li>
+        <li><a href="css" title="CSS Cheat Sheet">CSS</a></li>
+        <li><a href="express" title="Express Cheat Sheet">Express</a></li>
+        <li><a href="svn#more" id="nav-more">More &raquo;</a></li>
+    </ul>
+</div>
+
+<div style="position:fixed;right:105px;top:10px;z-index:200;">
+    <input type="" id="searchApi" placeholder="Search"/>
+</div>
+<div class="addthis_toolbox addthis_default_style" style="position:fixed;right:5px;top:17px;z-index:200;">
+    <a class="addthis_button_facebook"></a>
+    <a class="addthis_button_twitter"></a>
+    <a class="addthis_button_sinaweibo"></a>
+    <a class="addthis_button_compact"></a>
+</div>
+<div class="loading">
+    Loading...
+</div>
+
+        <div class="content content-250">
+    <div class="board">
+        <h2 class="board-title">Resource</h2>
+        <div class="board-card">
+            <h3 class="board-card-title">Online</h3>
+            <ul>
+                <li><a href="http://subversion.apache.org/">Official Website</a></li>
+            </ul>
+        </div>
+        <div class="board-card">
+            <h3 class="board-card-title">Download</h3>
+            <ul>
+                <li><a href="static/cs/subversion-cheat-sheet-v1.pdf">Subversion Cheat Sheet [.pdf]</a></li>
+                <li><a href="static/cs/svn-refcard.pdf">SVN Quick Reference Card [.pdf]</a></li>
+                <li><a href="static/cs/Cheat&#32;Sheet&#32;Subversion.pdf">Cheat Sheet Subversion [.pdf]</a></li>
+            </ul>
+        </div>
+        <div class="board-card">
+            <h3 class="board-card-title">Related</h3>
+            <ul>
+                <li><a href="bazaar" title="Bazaar Cheat Sheet">Bazaar</a></li>
+                <li><a href="cvs" title="CVS Cheat Sheet">CVS</a></li>
+                <li><a href="git" title="Git Cheat Sheet">Git</a></li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="board">
+        <h2 class="board-title">Component</h2>
+        <div class="board-card">
+            <ul>
+                <li>svn</li>
+                <li class="tip">Command line program</li>
+                <li>svnversion</li>
+                <li class="tip">Revision of working copy</li>
+                <li>svnlook</li>
+                <li class="tip">Inspect repository</li>
+                <li>svnadmin</li>
+                <li class="tip">Repository administration</li>
+                <li>svndumpfilter</li>
+                <li class="tip">Filter repository stream</li>
+                <li>mod_dav_svn</li>
+                <li class="tip">Apache module</li>
+                <li>svnserve</li>
+                <li class="tip">SVN server (SVN protocol)</li>
+                <li>svnsync</li>
+                <li class="tip">Mirror repository</li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="board">
+        <h2 class="board-title">Checkout & Help</h2>
+        <div class="board-card">
+            <h3 class="board-card-title">Checkout Working Copy</h3>
+            <ul>
+                <li>$ svn checkout "/path/to/repository"</li>
+                <li class="tip">Checkout working copy into current folder</dli>
+                <li>$ svn checkout "/path/to/repository" "/path/to/folder"</li>
+                <li class="tip">Checkout working copy into target folder</dli>
+            </ul>
+        </div>
+        <div class="board-card">
+            <h3 class="board-card-title">SVN Help</h3>
+            <ul>
+                <li>$ svn help</li>
+                <li>$ svn help import</li>
+                <li class="tip">Show help for "import" command</dli>
+            </ul>
+        </div>
+    </div>
+
+    <div class="board">
+        <h2 class="board-title">Commit</h2>
+        <div class="board-card">
+            <ul>
+                <li>$ svn commit "/path"</li>
+                <li class="tip">Commit changes to path</dli>
+                <li>$ svn commit -m "Message" "/path"</li>
+                <li class="tip">Commit with log message</dli>
+                <li>$ svn commit -N "/path"</li>
+                <li class="tip">Commit without recursion</dli>
+                <li>$ svn import "/path/to/folder" "/path"</li>
+                <li class="tip">Import and commit local folder</dli>
+            </ul>
+        </div>
+    </div>
+
+    <div class="board">
+        <h2 class="board-title">Update</h2>
+        <div class="board-card">
+            <ul>
+                <li>$ svn update "/path"</li>
+                <li class="tip">Update path</dli>
+                <li>$ svn update -r9 "/path"</li>
+                <li class="tip">Update path to revision 9</dli>
+            </ul>
+        </div>
+    </div>
+
+    <div class="board">
+        <h2 class="board-title">Diff / Revert / Merge</h2>
+        <div class="board-card">
+            <h3 class="board-card-title">Differences Between Files</h3>
+            <ul>
+                <li>$ svn diff "/path/file"</li>
+                <li>$ svn diff "/path/file@2" "/path/file@7"</li>
+                <li>$ svn diff -r 2:7 "/path/folder"</li>
+            </ul>
+        </div>
+        <div class="board-card">
+            <h3 class="board-card-title">Revert</h3>
+            <ul>
+                <li>$ svn revert "/path"</li>
+                <li class="tip">Revert changes to path</dli>
+                <li>$ svn revert -R "/path"</li>
+                <li class="tip">Revert changes recursively</dli>
+            </ul>
+        </div>
+        <div class="board-card">
+            <h3 class="board-card-title">Merge Changes</h3>
+            <ul>
+                <li>$ svn merge -r2:7 "item" "/path"</li>
+                <li class="tip">Apply diff between revisions 2 and 7 of "item" to path</dli>
+                <li>$ svn merge "url1" "url2" "/path"</li>
+                <li class="tip">Apply diff between "url1" and "url2" to path</dli>
+            </ul>
+        </div>
+    </div>
+
+    <div class="board">
+        <h2 class="board-title">Add / Delete</h2>
+        <div class="board-card">
+            <h3 class="board-card-title">Add Files / Folders</h3>
+            <ul>
+                <li>$ svn add *</li>
+                <li class="tip">Add all items, recursively</dli>
+                <li>$ svn add itemname</li>
+                <li class="tip">Add itemname (if folder, adds recursively)</dli>
+                <li>$ svn add * --force</li>
+                <li class="tip">Force recursion into versioned directories</dli>
+            </ul>
+        </div>
+        <div class="board-card">
+            <h3 class="board-card-title">Deleteing Copying Moving</h3>
+            <ul>
+                <li>$ svn delete "/path"</li>
+                <li class="tip">Delete path</dli>
+                <li>$ svn -m "Delete message" delete "/path"</li>
+                <li class="tip">Delete with log message</dli>
+                <li>$ svn copy "/source" "/target"</li>
+                <li class="tip">Copy source to target</dli>
+                <li>$ svn move "/source" "/target"</li>
+                <li class="tip">Move source to target</dli>
+            </ul>
+        </div>
+    </div>
+
+    <div class="board">
+        <h2 class="board-title">Logs and Blame</h2>
+        <div class="board-card">
+            <ul>
+                <li>$ svn log "/path"</li>
+                <li class="tip">Show log messages for path</dli>
+                <li>$ svn blame "/path"</li>
+                <li class="tip">Show commits for path</dli>
+            </ul>
+        </div>
+    </div>
+
+    <div class="board">
+        <h2 class="board-title">Protocols</h2>
+        <div class="board-card">
+            <ul>
+                <li>file://</li>
+                <li class="tip">Local machine</li>
+                <li>http://</li>
+                <li class="tip">HTTP (Apache)</li>
+                <li>https://</li>
+                <li class="tip">HTTPS (SSL)</li>
+                <li>svn://</li>
+                <li class="tip">SVN (svnserve)</li>
+                <li>svn+ssh://</li>
+                <li class="tip">SVN over SSH</li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="board">
+        <h2 class="board-title">Repo Admin</h2>
+        <div class="board-card">
+            <ul>
+                <li>$ svnadmin create "/path/to/repository"</li>
+                <li class="tip">Create new repository</dli>
+                <li>$ svnadmin setlog "/path" r 7 message.txt</li>
+                <li class="tip">Change log message for revision 7 to contents of file message.txt</dli>
+                <li>$ svnadmin dump "/path/to/repository" &gt; filename</li>
+                <li class="tip">Dump repository to file (backup)</dli>
+                <li>$ svnadmin load "/path/to/repository" &lt; filename</li>
+                <li class="tip">Load repository from file (restore)</dli>
+            </ul>
+        </div>
+    </div>
+
+    <div class="board">
+        <h2 class="board-title">Miscellaneous</h2>
+        <div class="board-card">
+            <ul>
+                <li>$ svn resolve "/path"</li>
+                <li class="tip">Resolve conflict</dli>
+                <li>$ svn cleanup "/path"</li>
+                <li class="tip">Remove locks and complete operations</dli>
+                <li>$ svn lock "/path"</li>
+                <li class="tip">Lock path</dli>
+                <li>$ svn unlock "/path"</li>
+                <li class="tip">Unlock path</dli>
+                <li>$ svn status "/path"</li>
+                <li class="tip">Get path status</dli>
+                <li>$ svn cat "/path"</li>
+                <li class="tip">View file contents</dli>
+            </ul>
+        </div>
+    </div>
+
+    <div class="board">
+        <h2 class="board-title">Item and Property Statuses</h2>
+        <div class="board-card">
+            <ul>
+                <li>&nbsp;</li>
+                <li class="tip">No modifications (blank)</li>
+                <li>A</li>
+                <li class="tip">Addition</li>
+                <li>D</li>
+                <li class="tip">Deletion</li>
+                <li>M</li>
+                <li class="tip">Modified</li>
+                <li>R</li>
+                <li class="tip">Item replaced</li>
+                <li>C</li>
+                <li class="tip">In conflict</li>
+                <li>X</li>
+                <li class="tip">Externals definition</li>
+                <li>I</li>
+                <li class="tip">Ignored</li>
+                <li>?</li>
+                <li class="tip">Not in repository</li>
+                <li>!</li>
+                <li class="tip">Item missing</li>
+                <li>~</li>
+                <li class="tip">Object type changed</li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="board">
+        <h2 class="board-title">Argument Shortcuts</h2>
+        <div class="board-card">
+            <ul>
+                <li>-m "Message"</li>
+                <li class="tip">--message</li>
+                <li>-q</li>
+                <li class="tip">--quiet</li>
+                <li>-v</li>
+                <li class="tip">--verbose</li>
+                <li>-r</li>
+                <li class="tip">--revision</li>
+                <li>-c</li>
+                <li class="tip">--change</li>
+                <li>-t</li>
+                <li class="tip">--transaction</li>
+                <li>-R</li>
+                <li class="tip">--recursive</li>
+                <li>-N</li>
+                <li class="tip">--non-recursive</li>
+            </ul>
+        </div>
+    </div>
+</div>
+
+
+        
+
+        <!--<div class="board board-detail-ad hide">-->
+        <div class="board hide" id="detail-ad">
+            
+        </div>
+
+        <script type="text/javascript">
+            $('.content').append($('#detail-ad'));
+            $('#detail-ad').removeClass('hide');
+        </script>
+
+        <script type="text/javascript" src="http://s7.addthis.com/js/250/addthis_widget.js#pubid=xa-4fddf49419e0facd"></script>
+</body>
+</html>
