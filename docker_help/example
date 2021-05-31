@@ -1,0 +1,29 @@
+## TecAdmin Docker Tutorial's]
+
+(https://tecadmin.net/tutorial/dockDocker Images
+
+A Docker image is an inert, immutable, file that’s essentially a snapshot of a container. The images can be created with the build command, which can be used to create a container when started with run.
+List Docker Images
+
+Use docker images command to list all images available on your local system.
+
+$ docker images
+
+Search Docker Images
+
+Use docker search command to search images on docker hub. For example use following command to search available docker images for CentOS operating system.
+
+$ docker search centos
+
+Download Docker Images
+
+You use docker pull command to download any image from docker hub. For example, download centos image from the Docker hub to your local system and use the latest to create containers.
+
+$ docker pull centos
+
+Delete Docker Images
+
+Use docker rmi command to remove any docker image from your local system. For example to remove image named centos use following command.
+
+$ docker rmi centos
+
